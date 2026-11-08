@@ -1,0 +1,13 @@
+{
+  "rows_raw": 568454,
+  "rows_after_dedup": 393892,
+  "duplicates_removed": 174562,
+  "rows_final": 393891,
+  "empty_after_cleaning": 1,
+  "vocab_before": 586944,
+  "vocab_after": 90596,
+  "tokens_before": 31445397,
+  "tokens_after": 15192247,
+  "vocab_reduction_pct": 84.56,
+  "seconds": 68.1
+}
