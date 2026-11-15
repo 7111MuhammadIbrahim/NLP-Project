@@ -1,0 +1,59 @@
+{
+  "count": {
+    "bow": {
+      "shape": [
+        393891,
+        24963
+      ],
+      "nnz": 12029438
+    },
+    "tfidf": {
+      "shape": [
+        393891,
+        405293
+      ],
+      "nnz": 22824744,
+      "ngram_range": [
+        1,
+        2
+      ]
+    }
+  },
+  "embeddings": {
+    "params": {
+      "vector_size": 100,
+      "window": 5,
+      "min_count": 5,
+      "epochs": 5,
+      "negative": 5,
+      "sample": 0.001,
+      "workers": 2,
+      "seed": 42
+    },
+    "fasttext_extra": {
+      "min_n": 3,
+      "max_n": 6,
+      "bucket": 500000
+    },
+    "tokens": 15192247,
+    "documents": 393891,
+    "w2v_cbow": {
+      "vocab": 26442,
+      "seconds": 56.3,
+      "sg": 0
+    },
+    "w2v_skipgram": {
+      "vocab": 26442,
+      "seconds": 208.1,
+      "sg": 1
+    },
+    "fasttext": {
+      "vocab": 26442,
+      "seconds": 310.7,
+      "sg": 1,
+      "min_n": 3,
+      "max_n": 6,
+      "bucket": 500000
+    }
+  }
+}
